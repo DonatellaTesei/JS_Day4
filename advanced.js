@@ -16,10 +16,10 @@ let dot = false;
 
 function click() {
     if (dot == false) {
-        document.getElementById("dot").style.background = "white";
+        document.getElementById("background").style.background = "white";
         dot = true;
     } else {
-        document.getElementById("dot").style.background = "gray";
+        document.getElementById("background").style.background = "gray";
         dot = false;
     }
 }
@@ -31,8 +31,9 @@ function click() {
 
 //4
 function doubleClick() {
-    document.getElementById("dot").style.background = "blue"
+    document.getElementById("background").style.background = "blue"
 }
+
 
 //events
 document.getElementById("dot").addEventListener("mouseover", textCircle);

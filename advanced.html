@@ -12,19 +12,29 @@
         #dot {
             display: flex;
             align-items: center;
+            margin: auto;
             height: 50vh;
             width: 50vh;
-            background-color: beige;
+            background-color: white;
             border-radius: 50%;
             border-style: dashed;
             border-color: black;
-            margin-top: 15rem;
+        }
+        
+        #background {
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            height: auto;
+            width: 100vw;
+            margin-top: 10rem;
         }
         
         div {
             display: flex;
             align-items: center;
             flex-direction: column;
+            margin: auto;
         }
         
         #text {
@@ -36,7 +46,7 @@
 </head>
 
 <body>
-    <div>
+    <div id="background">
         <span id="dot"> </span></div>
     <div>
         <p id="text1"></p>
